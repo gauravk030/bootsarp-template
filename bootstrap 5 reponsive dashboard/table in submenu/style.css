@@ -1,0 +1,35 @@
+/*Added for wrapper end*/
+#wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#sidebar-wrapper {
+  width: 250px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: -250px;
+}
+
+#page-content-wrapper {
+  flex: 1;
+}
+/*Added for wrapper end*/
+
+/* Optional smooth submenu transition */
+.collapse {
+  transition: height 0.35s ease;
+}
+/* Optional smooth submenu transition end */
+
+/*Added for right menubarlogo*/
+.navbar-brand img {
+  max-height: 36px;
+  width: auto;
+}
+/*Added for right menubarlogo end*/
+
+

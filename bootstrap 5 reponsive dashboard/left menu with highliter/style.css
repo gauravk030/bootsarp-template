@@ -1,0 +1,126 @@
+/*Added for wrapper end*/
+#wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#sidebar-wrapper {
+  width: 250px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: -250px;
+}
+
+#page-content-wrapper {
+  flex: 1;
+}
+/*Added for wrapper end*/
+
+/* Optional smooth submenu transition */
+.collapse {
+  transition: height 0.35s ease;
+}
+/* Optional smooth submenu transition end */
+
+/*Added for right menubarlogo*/
+.navbar-brand img {
+  max-height: 36px;
+  width: auto;
+}
+/*Added for right menubarlogo end*/
+
+/*Added for footer*/
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper {
+  flex: 1;
+  display: flex;
+}
+
+/*Added for footer end*/
+
+/* add for post and commnets*/
+.wp-style-sidebar {
+  background-color: #1e1e1e;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.wp-style-sidebar .sidebar-item {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  color: #ccc;
+  position: relative;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.wp-style-sidebar .sidebar-item:hover {
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+.wp-style-sidebar .sidebar-item.active,
+.wp-style-sidebar .sidebar-item.active-highlight {
+  background-color: #007cba;
+  color: white;
+}
+
+.wp-style-sidebar .sidebar-item a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.wp-style-sidebar .sidebar-item .bi {
+  font-size: 1rem;
+}
+
+.wp-style-sidebar .badge {
+  background-color: crimson;
+  color: white;
+  font-size: 0.65rem;
+  padding: 3px 7px;
+  border-radius: 10px;
+  margin-left: auto;
+}
+
+.wp-style-sidebar .arrow-icon {
+  margin-left: auto;
+  font-size: 0.8rem;
+}
+
+.wp-style-sidebar .submenu {
+  display: block;
+  padding-left: 20px;
+}
+
+.wp-style-sidebar .submenu li {
+  padding: 4px 0;
+}
+
+.wp-style-sidebar .submenu li a {
+  color: #bbb;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.wp-style-sidebar .submenu li a:hover {
+  color: #fff;
+}
+
+/* post and commnts end */
