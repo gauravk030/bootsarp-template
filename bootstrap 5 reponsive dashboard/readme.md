@@ -2,8 +2,8 @@
 
 ## Simple Menu Dashboard
 
-![image](/images/simple-dashboard.JPG?raw=true "Simple dashboard")
+![image](/images/simple-dashboard.JPG)
 
 ## Animated Menu Dashboard
 
-![image](/images/animated-dashboard.JPG?raw=true "Advanced dashboard")
+![image](/images/animated-dashboard.JPG)
