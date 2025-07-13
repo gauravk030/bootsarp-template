@@ -2,8 +2,8 @@
 
 ## Simple Menu Dashboard
 
-![image](/images/simple-dashboard.JPG)
+![image](images/simple-dashboard.JPG)
 
 ## Animated Menu Dashboard
 
-![image](/images/animated-dashboard.JPG)
+![image](images/animated-dashboard.JPG)
