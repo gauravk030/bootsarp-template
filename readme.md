@@ -2,8 +2,8 @@
 
 ## Simple Menu Dashboard
 
-![image](images/simple-dashboard.JPG)
+![image](bootstrap-5-reponsive-dashboard/images/simple-dashboard.JPG)
 
 ## Animated Menu Dashboard
 
-![image](images/animated-dashboard.JPG)
+![image](bootstrap-5-reponsive-dashboard/images/animated-dashboard.JPG)
